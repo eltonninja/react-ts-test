@@ -1,12 +1,15 @@
-import './App.css';
-import { MainLayout } from 'components/layout';
-import { EventLogger } from 'features/event-logger';
+import "./App.css";
+import { MainLayout } from "components/layout";
+import { EventLogger } from "features/event-logger";
+import { ThemeProvider } from "context/theme";
 
 function App() {
   return (
-    <MainLayout>
-      <EventLogger />
-    </MainLayout>
+    <ThemeProvider>
+      <MainLayout>
+        <EventLogger />
+      </MainLayout>
+    </ThemeProvider>
   );
 }
 
