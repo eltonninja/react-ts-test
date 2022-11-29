@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { LoggerContext } from "context/logger";
+import { LoggerContext } from "features/event-logger/contexts/logger";
 
 
-export const useTheme = () => {
+export const useLogger = () => {
 	const loggerData = useContext(LoggerContext);
 
 	if (!loggerData) {
