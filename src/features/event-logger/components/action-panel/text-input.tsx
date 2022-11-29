@@ -1,6 +1,6 @@
 import { Button } from "components/base";
 import { useState } from "react";
-import { useLogger } from "../hooks/use-logger";
+import { useLogger } from "../../hooks/use-logger";
 import "./text-input.css";
 
 export const TextInput = () => {

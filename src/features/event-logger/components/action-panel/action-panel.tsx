@@ -1,6 +1,6 @@
 import { useCallback, useState } from "react";
 import { Button } from "components/base";
-import { useLogger } from "../hooks/use-logger";
+import { useLogger } from "../../hooks/use-logger";
 import { ActionItem } from "./action-item"
 import { TextInput } from "./text-input";
 import { ThemeButton } from "./theme-button";

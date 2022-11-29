@@ -1,7 +1,7 @@
 import { Button } from "components/base";
-import { ThemeContextType } from "context/theme";
+import { ThemeContextType } from "contexts/theme";
 import { useTheme } from "hooks/use-theme";
-import { useLogger } from "../hooks/use-logger";
+import { useLogger } from "../../hooks/use-logger";
 
 export const ThemeButton = () => {
   const { theme, setTheme } = useTheme();
