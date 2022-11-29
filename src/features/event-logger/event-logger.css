@@ -1,0 +1,27 @@
+.event-logger {
+  display: flex;
+  height: 100%;
+}
+
+.left-panel {
+  width: 320px;
+  padding: 16px;
+  max-width: 100%;
+  flex-shrink: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.right-panel {
+  padding: 16px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 64px) {
+  .event-logger {
+    display: block;
+  }
+
+  .left-panel {
+    width: 100%;
+  }
+}

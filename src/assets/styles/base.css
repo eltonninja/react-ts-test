@@ -1,0 +1,22 @@
+/* container */
+.container {
+	display: block;
+	margin: auto;
+	height: 100%;
+}
+
+.container-xs {
+	max-width: var(--size-xs);
+}
+.container-sm {
+	max-width: var(--size-sm);
+}
+.container-md {
+	max-width: var(--size-md);
+}
+.container-lg {
+	max-width: var(--size-lg);
+}
+.container-xl {
+	max-width: var(--size-xl);
+}
