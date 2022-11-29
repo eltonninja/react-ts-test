@@ -1,6 +1,6 @@
-import { useState, PropsWithChildren, useCallback } from "react";
-import { LogType } from "types/log";
-import { LoggerContext } from "./logger-context";
+import { useState, PropsWithChildren, useCallback } from 'react';
+import { LogType } from 'types/log';
+import { LoggerContext } from './logger-context';
 
 export const LoggerProvider: React.FC<PropsWithChildren> = ({ children }) => {
 	const [records, setRecords] = useState<LogType[]>([]);

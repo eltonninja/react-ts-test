@@ -1,5 +1,5 @@
-import { createContext } from "react";
-import { LogType } from "types/log";
+import { createContext } from 'react';
+import { LogType } from 'types/log';
 
 export type LoggerContextType = {
     records: LogType[];

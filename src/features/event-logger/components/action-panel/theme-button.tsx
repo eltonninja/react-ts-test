@@ -1,7 +1,7 @@
-import { Button } from "components/base";
-import { ThemeContextType } from "contexts/theme";
-import { useTheme } from "hooks/use-theme";
-import { useLogger } from "../../hooks/use-logger";
+import { Button } from 'components/base';
+import { ThemeContextType } from 'contexts/theme';
+import { useTheme } from 'hooks/use-theme';
+import { useLogger } from '../../hooks/use-logger';
 
 export const ThemeButton = () => {
   const { theme, setTheme } = useTheme();
@@ -9,7 +9,7 @@ export const ThemeButton = () => {
 
   const targetTheme = theme === 'light' ? 'Dark' : 'Light';
   const toggleTheme = () => {
-    setTheme(targetTheme.toLowerCase() as ThemeContextType["theme"]);
+    setTheme(targetTheme.toLowerCase() as ThemeContextType['theme']);
     appendLog(`Theme was set to ${targetTheme}`);
   }
 

@@ -1,9 +1,9 @@
-import { useCallback, useState } from "react";
-import { Button } from "components/base";
-import { useLogger } from "../../hooks/use-logger";
-import { ActionItem } from "./action-item"
-import { TextInput } from "./text-input";
-import { ThemeButton } from "./theme-button";
+import { useCallback, useState } from 'react';
+import { Button } from 'components/base';
+import { useLogger } from '../../hooks/use-logger';
+import { ActionItem } from './action-item'
+import { TextInput } from './text-input';
+import { ThemeButton } from './theme-button';
 
 export const ActionPanel = () => {
   const { appendLog } = useLogger();
@@ -19,7 +19,7 @@ export const ActionPanel = () => {
   }, [appendLog]);
 
   return (
-    <div className="action-panel">
+    <div className='action-panel'>
       <ActionItem>
         <ThemeButton />
       </ActionItem>

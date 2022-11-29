@@ -1,5 +1,5 @@
-import { ButtonHTMLAttributes, memo } from "react";
-import clsx from "clsx";
+import { ButtonHTMLAttributes, memo } from 'react';
+import clsx from 'clsx';
 
 type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 	variant?: 'primary' | 'secondary';

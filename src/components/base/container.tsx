@@ -1,5 +1,5 @@
-import { HTMLAttributes, memo } from "react";
-import clsx from "clsx";
+import { HTMLAttributes, memo } from 'react';
+import clsx from 'clsx';
 
 type ContainerProps = HTMLAttributes<HTMLDivElement> & {
   maxSize?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';

@@ -1,7 +1,7 @@
-import { Button } from "components/base";
-import { useState } from "react";
-import { useLogger } from "../../hooks/use-logger";
-import "./text-input.css";
+import { Button } from 'components/base';
+import { useState } from 'react';
+import { useLogger } from '../../hooks/use-logger';
+import './text-input.css';
 
 export const TextInput = () => {
   const [value, setValue] = useState('');
@@ -13,7 +13,7 @@ export const TextInput = () => {
   }
 
   return (
-    <div className="text-input">
+    <div className='text-input'>
       <textarea value={value} onChange={e => setValue(e.target.value)} />
       <Button onClick={handleLog} disabled={!value}>&gt;&gt;</Button>
     </div>

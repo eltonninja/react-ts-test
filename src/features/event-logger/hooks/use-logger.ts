@@ -1,5 +1,5 @@
-import { useContext } from "react";
-import { LoggerContext } from "features/event-logger/contexts/logger";
+import { useContext } from 'react';
+import { LoggerContext } from '../contexts/logger';
 
 
 export const useLogger = () => {

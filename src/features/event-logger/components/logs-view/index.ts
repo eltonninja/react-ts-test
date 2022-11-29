@@ -1,1 +1,1 @@
-export * from "./logs-view";
+export * from './logs-view';
