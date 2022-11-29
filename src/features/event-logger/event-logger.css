@@ -1,0 +1,30 @@
+.event-logger {
+  display: flex;
+  height: 100%;
+}
+
+.left-panel {
+  width: 320px;
+  padding: 16px;
+  max-width: 100%;
+  flex-shrink: 0;
+  background-color: var(--left-bg-color);
+  color: var(--left-text-color);
+}
+
+.right-panel {
+  padding: 16px;
+  flex-grow: 1;
+  background-color: var(--right-bg-color);
+  color: var(--right-text-color);
+}
+
+@media screen and (max-width: 640px) {
+  .event-logger {
+    display: block;
+  }
+
+  .left-panel {
+    width: 100%;
+  }
+}

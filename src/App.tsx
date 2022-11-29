@@ -1,7 +1,7 @@
-import "./App.css";
-import { MainLayout } from "components/layout";
-import { EventLogger } from "features/event-logger";
-import { ThemeProvider } from "context/theme";
+import { MainLayout } from 'components/layout';
+import { EventLogger } from 'features/event-logger';
+import { ThemeProvider } from 'contexts/theme';
+import './App.css';
 
 function App() {
   return (

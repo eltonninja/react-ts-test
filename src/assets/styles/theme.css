@@ -1,21 +1,30 @@
-:root, .theme-light {
-	--bg-color: "white";
-	--text-color: "black";
-	--left-bg-color: "#cecece";
-	--left-text-color: "#242424";
-	--right-bg-color: "white";
-	--right-text-color: "#000000";
-	--button-bg-color: "#cc0000";
-	--button-text-color: "white";
+:root {
+	--size-xs: 480px;
+	--size-sm: 640px;
+	--size-md: 960px;
+	--size-lg: 1200px;
+	--size-xl: 1440px;
+}
+
+:root,
+.theme-light {
+	--bg-color: white;
+	--text-color: black;
+	--left-bg-color: #cecece;
+	--left-text-color: #242424;
+	--right-bg-color: white;
+	--right-text-color: #000000;
+	--button-bg-color: #cc0000;
+	--button-text-color: white;
 }
 
 .theme-dark {
-	--bg-color: "black";
-	--text-color: "white";
-	--left-bg-color: "white";
-	--left-text-color: "#696969";
-	--right-bg-color: "#008080";
-	--right-text-color: "white";
-	--button-bg-color: "#f0f8ff";
-	--button-text-color: "#800080";
+	--bg-color: black;
+	--text-color: white;
+	--left-bg-color: white;
+	--left-text-color: #696969;
+	--right-bg-color: #008080;
+	--right-text-color: white;
+	--button-bg-color: #f0f8ff;
+	--button-text-color: #800080;
 }
