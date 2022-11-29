@@ -19,7 +19,7 @@
   color: var(--right-text-color);
 }
 
-@media screen and (max-width: 64px) {
+@media screen and (max-width: 640px) {
   .event-logger {
     display: block;
   }

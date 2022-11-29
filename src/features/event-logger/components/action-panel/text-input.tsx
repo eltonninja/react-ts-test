@@ -8,7 +8,7 @@ export const TextInput = () => {
   const { appendLog } = useLogger();
 
   const handleLog = () => {
-    appendLog(value);
+    appendLog(`Message Sent: ${value}`);
     setValue('');
   }
 
