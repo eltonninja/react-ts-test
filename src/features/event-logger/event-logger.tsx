@@ -1,7 +1,6 @@
 import { Container } from "components/base";
 import { LoggerProvider } from "./contexts/logger";
-import { ActionPanel } from "./components/action-panel";
-import { LogsView } from "./components/logs-view";
+import { ActionPanel, LogsView } from "./components";
 import "./event-logger.css";
 
 export const EventLogger = () => (
